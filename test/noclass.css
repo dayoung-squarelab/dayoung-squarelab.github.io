@@ -1,38 +1,38 @@
-.default > p {
+p {
   color: red;
   font-weight: bold;
   font-size: 24px;
 }
-.default > a {
+a {
   color: #2175ff;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
-.default > blockquote {
+blockquote {
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: 8px;
   margin: 24px;
   padding: 8px 0px;
 }
 
-.default > blockquote h5 {
+blockquote h5 {
   margin-top: 16px;
   margin-bottom: 12px;
 }
 
-.default > blockquote h5:after {
+blockquote h5:after {
   display: none;
 }
 
-.default > em {
+em {
   font-size: 12px;
   line-height: 16px;
   color: rgba(0, 0, 0, 0.6);
 }
 
-.default > h1,
+h1,
 h2,
 h3,
 h4,
@@ -46,7 +46,7 @@ ol {
   margin-right: 24px;
 }
 
-.default > h1 {
+h1 {
   font-size: 28px;
   font-weight: normal;
   line-height: 40px;
@@ -54,21 +54,21 @@ ol {
   margin-bottom: 16px;
 }
 
-.default > h2 {
+h2 {
   font-size: 22px;
   line-height: 32px;
   margin-top: 40px;
   margin-bottom: 16px;
 }
 
-.default > h3 {
+h3 {
   font-size: 18px;
   line-height: 26px;
   margin-top: 24px;
   margin-bottom: 16px;
 }
 
-.default > h4 {
+h4 {
   font-size: 18px;
   line-height: 26px;
   font-weight: normal;
@@ -76,14 +76,14 @@ ol {
   margin-bottom: 16px;
 }
 
-.default > h5 {
+h5 {
   font-size: 14px;
   line-height: 24px;
   margin-top: 40px;
   margin-bottom: 24px;
 }
 
-.default > h5:after {
+h5:after {
   content: "";
   display: block;
   margin-top: 8px;
@@ -92,7 +92,7 @@ ol {
   background-color: rgba(0, 0, 0, 0.87);
 }
 
-.default > hr {
+hr {
   margin-top: 40px;
   margin-bottom: 40px;
   border: 0px;
@@ -100,27 +100,27 @@ ol {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
-.default > img {
+img {
   width: 100%;
 }
 
-.default > li p {
+li p {
   margin-left: 0;
   margin-right: 0;
 }
 
-.default > ol,
+ol,
 ul {
   margin-top: -12px;
   padding-left: 16px;
 }
 
-.default > p img {
+p img {
   border-radius: 8px;
   display: block;
 }
 
-.default > table {
+table {
   border-collapse: collapse;
   width: calc(100% - 48px);
   margin-top: 16px;
@@ -128,36 +128,36 @@ ul {
   font-size: 13px;
 }
 
-.default > table th,
+table th,
 table td {
   padding: 8px;
 }
 
-.default > table th {
+table th {
   color: #fff;
   background-color: #737795;
   border-bottom: none;
   border-right: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.default > table th:first-child {
+table th:first-child {
   border-left: 1px solid #737795;
 }
 
-.default > table th:last-child {
+table th:last-child {
   border-right: 1px solid #737795;
 }
 
-.default > table td {
+table td {
   border-right: 1px solid rgba(0, 0, 0, 0.12);
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.default > table td:first-child {
+table td:first-child {
   border-left: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.default > .carousel {
+.carousel {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   list-style: none;
@@ -166,28 +166,28 @@ table td {
   margin: 0;
 }
 
-.default > .carousel li {
+.carousel li {
   position: relative;
   flex: 0 0 calc(100% - 48px);
   padding-right: 12px;
 }
 
-.default > .carousel li:first-child {
+.carousel li:first-child {
   padding-left: 24px;
 }
 
-.default > .carousel li:last-child {
+.carousel li:last-child {
   padding-right: 24px;
 }
 
-.default > .carousel li img {
+.carousel li img {
   scroll-snap-align: center;
   border-radius: 8px;
   height: 192px;
   object-fit: cover;
 }
 
-.default > .button {
+.button {
   outline: none;
   border: none;
   border-radius: 4px;
